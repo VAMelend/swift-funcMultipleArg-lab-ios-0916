@@ -25,7 +25,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny", greeting: "Hello")
 
 
 
@@ -37,7 +37,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth("November", days:"30")
 
 
 
@@ -47,7 +47,11 @@ daysInMonth("November", days: 30)
  */
 // write your code here
 
+func beverages(number: String, type: String, color: String){
+    print("\(number) bottles of \(type) on the \(color) wall.")
+}
 
+beverages("20", type: "coke", color:"red")
 
 
 /*:
